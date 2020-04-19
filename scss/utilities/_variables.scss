@@ -1,1 +1,24 @@
 // Variables
+
+// Colors
+
+$white: #fff;
+$color-base: #777;
+$color-primary: #58e1c1;
+$color-links: #51ddfc;
+$color-border: #ccc;
+// $themes: #927bc1;
+// $color-themes: lighten($themes, 10%);
+
+// btn colors
+$btn: (
+  'default': #51ddfc,
+  'error': #e4757a, 
+  'info': #927bc1,
+  'success': #63cc82,
+  'warning': #fd7856,
+);
+
+// Breakpoints
+
+$break-m: 768px;
