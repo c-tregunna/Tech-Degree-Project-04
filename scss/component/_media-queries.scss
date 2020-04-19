@@ -1,10 +1,10 @@
 // Media queries
 
-
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $break-m) {
+
+@media (min-width: 768px) {
 
 .container {
   max-width: 1400px;
