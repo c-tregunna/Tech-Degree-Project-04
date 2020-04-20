@@ -517,29 +517,50 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
-.btn:hover {
-  background-color: red;
-  transition: background-color, 0.8s;
-}
 
 .default {
   background-color: #51ddfc;
+}
+
+.default:hover {
+  background-color: #9cecfd;
+  transition: background-color, 0.8s;
 }
 
 .error {
   background-color: #e4757a;
 }
 
+.error:hover {
+  background-color: #f1b5b8;
+  transition: background-color, 0.8s;
+}
+
 .info {
   background-color: #927bc1;
+}
+
+.info:hover {
+  background-color: #bdafd9;
+  transition: background-color, 0.8s;
 }
 
 .success {
   background-color: #63cc82;
 }
 
+.success:hover {
+  background-color: #9ddfb0;
+  transition: background-color, 0.8s;
+}
+
 .warning {
   background-color: #fd7856;
+}
+
+.warning:hover {
+  background-color: #feb4a2;
+  transition: background-color, 0.8s;
 }
 
 /* ============================================= */
