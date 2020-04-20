@@ -14,18 +14,18 @@
   margin-right: auto;
 }
 
-// @mixin mq($break) {  
-// $value: map-get($breakpoints, $break);
-//  $sm: map-get($breakpoints, 'sm');            
-            
-//  @if $value < $sm {
-//    @media (max-width: $value) {
-//      @content;       
-//    }          
-//  }    
-//  @else {
-//    @media (min-width: $value) {
-//      @content;       
-//    }             
-//  }  
-//}
+// media queries
+
+@mixin medq($break) {
+  @media (min-width: $break-m) {
+    @content;
+  }
+}
+
+//Theme cards
+
+// @for $i from 1 through 3 {
+//   ul:nth-child(3n + #{$i}) {
+//     background-color: lighten($base-color, $i * 5%);
+//  }
+// }

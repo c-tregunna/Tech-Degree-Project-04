@@ -4,8 +4,19 @@
 /*              Grid System                      */
 /* ============================================= */
 
+  
 .container {
   padding: 0 10px;
+  @include medq($break-m) {
+    max-width: 1400px;
+    @include mediaq;
+  }
+}
+
+.centered {
+  @include medq($break-m){
+  @include mediaq;
+  }
 }
 
 .row {
