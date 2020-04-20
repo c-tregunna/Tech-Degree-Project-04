@@ -13,6 +13,10 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+  @include medq($break-m) {
+    padding: 10px 30px;
+    margin-left: 10px;
+  }
 }
 
 @each $button, $color in $btns {

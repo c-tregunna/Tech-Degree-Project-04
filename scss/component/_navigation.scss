@@ -22,6 +22,14 @@
   color: $white;
   background-color: $color-primary;
     }
+    @include medq($break-m) {
+      flex-basis: 100px;
+    }
+  }
+  @include medq($break-m) {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
   }
 }
 

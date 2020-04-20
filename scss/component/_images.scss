@@ -18,6 +18,10 @@
 	}
 	&-logo {
 		@include image;
+		@include medq($break-m) {
+		  margin-left: initial;
+  		  margin-right: initial;
+		}
 	}
 
 }
