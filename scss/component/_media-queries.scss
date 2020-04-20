@@ -7,16 +7,12 @@
 @media (min-width: $break-m) {
 
 .container {
+  @include mediaq;
   max-width: 1400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include mediaq
 }
 
 .row {
